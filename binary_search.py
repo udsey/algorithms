@@ -10,7 +10,7 @@ def check_guess(guess, n):
         return 'gotcha!'
 
 def calc_guess(in_range):
-    return int(sum(in_range)/len(in_range))
+    return int(sum(in_range)/2)
 
 def guess_number(n, in_range):    
 	guess = calc_guess(in_range)
